@@ -1,0 +1,33 @@
+.active{
+    border-bottom: 2px solid #009DFF;
+    color: #009DFF;
+}
+nav{
+    flex-shrink: 0;
+    border-bottom: 1px solid #EAEDF6;
+}
+nav ul{ 
+    height: 45px;
+}
+nav li{
+    
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px; 
+    white-space: nowrap;
+}
+.mask{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 45px;
+    z-index: 1;       
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.8)));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));;
+    pointer-events: none;
+}
